@@ -41,7 +41,7 @@ def test_create_user_2_letter_in_first_name_get_success_response():
     positive_assert("Aa")
 
 
-# Тест 1. Успешное создание пользователя
+# Тест 2. Успешное создание пользователя
 # Параметр fisrtName состоит из 15 символов
 def test_create_user_15_letter_in_first_name_get_success_response():
     positive_assert("Ааааааааааааааа")
